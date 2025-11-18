@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1)Text fiels -->
+     <!-- for & id attribute are use to make connection between lable and input field -->
+    <label for="username">Name</label>
+    <input type="text" id="username">
+    <br>
+    <br>
+
+<label for="mail">Email</label>
+<input type="text" id="mail">
+<br><br>
+<!-- 2) using type=password we can hide text  -->
+<label for="password">password</label>
+<input type="password" id="password" required>
+<br><br>
+<!-- 3) type=tel & maxlength & minlength -->
+<label for="mobileNo">Mobile No</label>
+<input type="tel" maxlength="10" minlength="10" id="mobileNo">
+<br><br>
+<!-- 4) textarea tag  -->
+<label for="address">Address</label>
+<textarea id="address"></textarea>
+<br><br>
+<!-- 5) for date we have datetime-local,date ,datetime-->
+<label for="">DOB</label>
+<input type="date" name="" id="">
+<br><br>
+<!-- 6) radio button =name attribute used for identifining the type of data and assign only one value to server side -->
+<label>Gender</label>
+<br>
+<input type="radio" name="Gender" value="male" id="male"><label for="male">Male</label><br>
+<input type="radio" name="Gender" value="female" id="female"><label for="female">Female</label><br>
+<input type="radio" name="Gender" value="others" id="others"><label for="others">others</label>
+<br> <br>
+<!-- 7)checkbox =any no of value we can select -->
+<label >Skills</label>
+<br>
+<input type="checkbox" value="SQL"><label >SQL</label> <br>
+<input type="checkbox"value="JAVA"><label>JAVA</label> <br>
+<input type="checkbox" value="HTML"><label >CSS</label><br>
+<input type="checkbox" value="JavaScript"><label >JavaScript</label>
+<br><br>
+<label >Select City</label>
+<select >
+    <option value="Pune">Pune</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Delhi">Delhi</option>
+</select><br><br>
+
+<!-- 8)type=file  for uploading file -->
+ <label>Upload the file</label>
+ <input type="file">
+
+<!-- 10) type=submit =Text on button -->
+<br><br><br>
+<input type="submit" value="Login">
+
+
+</body>
+</html>
